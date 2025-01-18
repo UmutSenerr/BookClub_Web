@@ -1,0 +1,86 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
+.kitaplar {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    gap: 50px;
+    perspective: 900px;
+
+    
+   
+}
+
+.kitap1 {
+    /* width: 800px; */
+    height: 390px;
+    background: #fffffd;
+    border-radius: 1em;
+    box-shadow: 0 0 6px -4px black;
+    
+    transition: 0.75s all;
+    transform-style: preserve-3d;
+    text-align: center;
+    display: flex;
+    
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 5px;
+
+    
+    
+}
+
+.kitap1 img {
+    object-fit: cover;
+    width: 210px;
+    height: 332px;
+    border-radius: 10px;
+
+}
+
+.kitap-isim {
+    margin-top: 10px;
+}
+
+.kitap1:hover {
+    transform: rotateY(180deg);
+}
+
+.back {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+    inset: 0.1px;
+    border-radius: 10px;
+    background: #3fa46a;
+    transform: rotateY(180deg);
+    backface-visibility: hidden;
+    box-shadow: inset 0px 30px 15px -3px rgba(0,0,0,0.1);
+    transition: all ease 0.3s;
+
+}
+
+.kitaplar .kitap1 .front p {
+    font-family:Raleway;
+    font-weight: bold;
+}
+
+.kitap-aciklama {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.kitap1 button {
+    padding: 10px;
+    border: none;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.kitap1 button:hover {
+    background-color: #ccc;
+    transition: all ease 0.3s;
+
+}

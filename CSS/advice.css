@@ -1,0 +1,49 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
+.advice-system {
+    font-family: 'Raleway';
+}
+
+.book-advice {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.advice {
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 80%;
+    height: 600px;
+    /* gap: 50px; */
+}
+
+.adviced-book {
+    border-radius: 10px;
+    background-color: #ccc;
+    width: 240px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pp img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.bookPhoto img {
+    object-fit: cover;
+    width: 210px;
+    height: 332px;
+    border-radius: 10px;
+}

@@ -1,0 +1,141 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: #ccc;
+  }
+
+  nav {
+    padding: 34px;
+    text-align: center;
+    font-family: Raleway;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+  }
+  
+  #nav-1 {
+    background: #3fa46a;
+  }
+  
+  
+  .link-1 {
+    transition: 0.3s ease;
+    background: #3fa46a;
+    color: #ffffff;
+    font-size: 20px;
+    text-decoration: none;
+    border-top: 4px solid #3fa46a;
+    border-bottom: 4px solid #3fa46a;
+    padding: 20px 0;
+    margin: 0 20px;
+  }
+  .link-1:hover {
+    border-top: 4px solid #ffffff;
+    border-bottom: 4px solid #ffffff;
+    padding: 6px 0; 
+  }
+
+
+#arainput {
+    border-radius: 5px;
+    padding: 5px;
+    width: 20%;
+    border: none;
+    margin-left: 10px;
+}
+
+.fa-magnifying-glass:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: all ease 0.5s;
+  }
+
+  .main-sec {
+    width: 100%;
+    display: flex;
+    /* justify-content:space-around; */
+    align-items: center;
+    height: 406px;
+    padding: 200px;
+    margin-bottom: 50px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* border-bottom: 1px solid black; */
+  }
+
+  .main-sec .ana-icerik p {
+    font-size:x-large;
+  }
+
+  .leke1 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #3fa46bd0;
+    width: 800px;
+    height: 700px;
+    z-index: -1;
+    background: radial-gradient(circle at 60% 15%, rgba(111, 255, 0, 0.2), rgba(255, 165, 0, 0) 20%),
+    radial-gradient(circle at 30% 50%, rgba(72, 255, 0, 0.2), rgba(255, 140, 0, 0) 40%);
+    /* radial-gradient(circle at 60% 85%, rgba(157, 255, 0, 0.2), rgba(255, 200, 0, 0) 20%); */
+}
+
+.leke2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #3fa46bd0;
+  width: 800px;
+  height: 700px;
+  z-index: -1;
+  background: radial-gradient(circle at 60% 15%, rgba(111, 255, 0, 0.2), rgba(255, 165, 0, 0) 20%),
+  radial-gradient(circle at 30% 50%, rgba(72, 255, 0, 0.2), rgba(255, 140, 0, 0) 40%);
+  /* radial-gradient(circle at 60% 85%, rgba(157, 255, 0, 0.2), rgba(255, 200, 0, 0) 20%); */
+}
+  
+
+  .main-sec img {
+    width: 400px;
+  }
+  
+
+
+  .kategoriler {
+    display: flex;
+    justify-content: flex-start;
+    list-style-type: none;
+  
+  }
+
+  .kategoriler .category {
+    margin: 0 0 0 50px;
+}
+
+  .kategoriler button {
+    width: 150px;
+    padding: 15px;
+    cursor: pointer;
+    border:none;
+    border-radius: 10px;
+    box-shadow: inset 0px 10px 15px -3px rgba(0,0,0,0.1),0px 20px 15px -3px rgba(0,0,0,0.1);
+    transition: all ease 0.3s;
+
+  }
+
+  .kategoriler button:hover {
+    transition: all ease 0.3s;
+    background-color: #57d78f;
+  }
+
+
+#goToBook {
+  text-decoration: none;
+  color: black;
+}

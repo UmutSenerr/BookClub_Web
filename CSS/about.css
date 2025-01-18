@@ -1,0 +1,27 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
+
+.about-card {
+    box-shadow: 20px 0px 15px -3px rgba(0,0,0,0.1),-20px 10px 15px -3px rgba(0,0,0,0.1),inset 0px 10px 15px -3px rgba(0,0,0,0.1);
+    margin-top: 50px;
+    width: 700px;
+    height: 500px;
+    background-color: aliceblue;
+    border-radius: 20px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.about-card h1 {
+    font-family: 'Raleway';
+}
+
+.about-card p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.6;
+    word-spacing: 0.1em;
+    font-size: 20px;
+    white-space: pre-wrap;
+}

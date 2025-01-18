@@ -1,0 +1,136 @@
+
+.book-page-sec {
+    display: flex;
+    gap: 50px;
+    padding: 50px;
+    
+}
+
+.img-rating {
+    display: flex;
+    flex-direction: column;
+}
+
+.book-page-sec img {
+    width: 310px;
+    
+}
+
+.kitap-icerik {
+    
+    width: 60%;
+    
+    
+}
+
+
+.baslik h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: max-content;
+    border-bottom: 1px solid black;
+}
+
+.desc {
+    font-size: 20px;
+    white-space: pre-wrap;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+
+.yorum-icerigi h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.yorumlar {
+    display: flex;
+    flex-direction: column-reverse; 
+    gap: 10px;
+    
+}
+
+.comment-elements{
+    display: flex;
+    gap: 20px;
+    height: 30px;
+    
+}
+
+  #yorumInput {
+    padding: 10px;
+    width: 250px;
+    border: none;
+    border-radius: 5px;
+
+}
+ #yorumButton {
+   border-radius: 6px;
+   /* padding: 15px; */
+   width: 150px;
+   height: 30px;
+    background-color: white;
+   font-size:14px;
+   text-align: center;
+   border: none;
+   cursor: pointer;
+   transition: all ease 0.3s;
+
+}
+
+#yorumButton:hover {
+    background-color: #57d78f;
+    transition: all ease 0.3s;
+    transform: scale(1.1);
+
+}
+
+.yorumlar p {
+    max-width: max-content;
+    background-color: #333;
+    border-radius: 10px;
+    margin: 5px 0;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    padding: 15px;
+    border-bottom: 1px solid black;
+}
+
+
+
+
+
+
+.rating {
+    display: inline-block;
+   
+    text-align: center;
+  }
+  
+  .rating input {
+    display: none;
+  }
+  
+  .rating label {
+    
+    float: right;
+    cursor: pointer;
+    color: black;
+    transition: color 0.3s;
+  }
+  
+  .rating label:before {
+    content: '\2605';
+    font-size: 30px;
+    
+    
+  }
+  
+  .rating input:checked ~ label,
+  .rating label:hover,
+  .rating label:hover ~ label {
+    color: yellow;
+    transition: color 0.3s;
+    
+  }
